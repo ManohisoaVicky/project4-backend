@@ -69,14 +69,14 @@ MIDDLEWARE = [
 CORS_ORIGIN_WHITELIST = [
   "http://localhost:3000",
   "http://localhost:8000",
-  "https://verdant-hummingbird-03b88c.netlify.app/"
+  "https://verdant-hummingbird-03b88c.netlify.app"
 ]
 
-CSRF_TRUSTED_ORIGINS = ["https://verdant-hummingbird-03b88c.netlify.app/", "http://localhost:3000"]
+CSRF_TRUSTED_ORIGINS = ["https://verdant-hummingbird-03b88c.netlify.app", "http://localhost:3000"]
 
 ROOT_URLCONF = 'project.urls'
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "https://verdant-hummingbird-03b88c.netlify.app/"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "https://verdant-hummingbird-03b88c.netlify.app"]
 
 TEMPLATES = [
     {
