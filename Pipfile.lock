@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "90eeae366db01671f3e584772548979860897b2a5ab04eccfacdfa75881cc7b1"
+            "sha256": "64f6d4bbac9e0d78c174ea4d4e810e8a40b1a1be100c8eab10d81c55cb0a668a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -198,6 +198,14 @@
             ],
             "index": "pypi",
             "version": "==0.10.0"
+        },
+        "django-on-heroku": {
+            "hashes": [
+                "sha256:4a72ade056335112cba22eea332552d840b718dd8140d43c2d70bb739875955b",
+                "sha256:a41fe83ef7ecb022ca92b2950a61f79fef156e58f4f35fc7fc4ecacdc5225fb8"
+            ],
+            "index": "pypi",
+            "version": "==1.1.2"
         },
         "djangorestframework": {
             "hashes": [
@@ -483,6 +491,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==4.5.0"
+        },
+        "whitenoise": {
+            "hashes": [
+                "sha256:599dc6ca57e48929dfeffb2e8e187879bfe2aed0d49ca419577005b7f2cc930b",
+                "sha256:a02d6660ad161ff17e3042653c8e3f5ecbb2a2481a006bde125b9efb9a30113a"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==6.4.0"
         },
         "zope.interface": {
             "hashes": [
