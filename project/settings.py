@@ -33,7 +33,7 @@ DEBUG = env.bool("DEBUG", default=False)
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
-ALLOWED_HOSTS = [".netlify.app", "localhost", "127.0.0.1", "hostname.fly.dev"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "https://verdant-hummingbird-03b88c.netlify.app/"]
 
 
 # Application definition
